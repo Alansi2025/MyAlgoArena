@@ -1,0 +1,65 @@
+/* Your new styles */
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+.font-game {
+    font-family: 'Press Start 2P', cursive;
+}
+.neon-text {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0077ff, 0 0 20px #0077ff, 0 0 25px #0077ff, 0 0 30px #0077ff, 0 0 35px #0077ff;
+}
+.arena-bar {
+    transition: all 0.1s linear;
+    margin: 0 1px;
+    background-color: #f0f;
+    box-shadow: 0 0 5px #f0f;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.bar-comparing {
+    background-color: #ff0;
+    box-shadow: 0 0 8px #ff0;
+}
+.bar-swapping {
+    background-color: #0ff;
+    box-shadow: 0 0 8px #0ff;
+}
+.bar-sorted {
+    background-color: #0f0;
+    box-shadow: 0 0 8px #0f0;
+}
+.glass-panel {
+    background: rgba(26, 26, 46, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.btn-pixel {
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    background-color: #9f7aea;
+    border: 2px solid #1a1a2e;
+    box-shadow: 4px 4px 0px #1a1a2e;
+    transition: all 0.1s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-pixel:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #1a1a2e;
+}
+.btn-pixel:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px #1a1a2e;
+}
+.btn-pixel:disabled {
+    background-color: #4a4a6a;
+    color: #888;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 4px 4px 0px #1a1a2e;
+}
